@@ -14,8 +14,8 @@ import time
 
 from .extract_fields import (ITEM_KEYS, _amount_str, empty_document, parse_date)
 
-DEFAULT_MODEL = "gemini-2.5-flash"
-DEFAULT_FALLBACK_MODELS = ("gemini-2.5-flash-lite",)   # tried when the main model stays overloaded
+DEFAULT_MODEL = "gemini-3.8-flash"
+DEFAULT_FALLBACK_MODELS = ("gemini-3.8-flash-lite",)   # tried when the main model stays overloaded
 RETRY_DELAYS = (2, 5, 10)                              # seconds to wait before retry 1, 2, 3
 _TRANSIENT = ("503", "unavailable", "overloaded", "429", "resource_exhausted", "500", "504",
               "deadline", "timed out", "timeout", "connection")
