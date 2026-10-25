@@ -1,0 +1,13 @@
+INVOICE
+Invoice No: INV-001
+Vendor: ABC Supplies
+Invoice Date: 2026-10-20
+Currency: INR
+
+Item Description | Quantity | Unit Price | Amount
+Wireless Mouse | 10 | 500.00 | 5000.00
+USB Keyboard | 5 | 750.00 | 3750.00
+
+Subtotal: 8750.00
+GST: 1575.00
+Grand Total: 10325.00
